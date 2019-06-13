@@ -5,16 +5,13 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
 
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
-
     //testOptions.unitTests.includeAndroidResources = true
-
 }
 
 dependencies {
